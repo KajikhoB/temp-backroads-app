@@ -17,7 +17,7 @@ function Footer() {
           const{id, href, icon} = list
           return(
             <li key={id}>
-          <a href={href} target="_blank" rel='noopener' className="footer-icon"
+          <a href={href} target="_blank" rel='noreferrer' className="footer-icon"
             ><i className={icon}></i
           ></a>
         </li>
